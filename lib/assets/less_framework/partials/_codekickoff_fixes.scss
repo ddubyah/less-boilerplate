@@ -1,0 +1,13 @@
+/* Fixes for codekickoffs compass sass */
+                                
+@import "blueprint/colors";
+@import "blueprint/typography";
+$alt_text_color:$alt-text-color;
+
+@mixin float-left{
+	float: left
+}            
+
+@mixin float-right{
+	float: right
+}
